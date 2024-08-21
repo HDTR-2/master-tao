@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+# MasterTao Cargo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MasterTao Cargo — это React TypeScript приложение, предназначенное для прямых грузоперевозок из Китая. Приложение
+обеспечивает отправку данных на удаленный сервер, обеспечивая плавный и эффективный процесс управления грузом.
 
-## Available Scripts
+## Содержание
 
-In the project directory, you can run:
+- [Функциональность](#функциональность)
+- [Используемые технологии](#используемые-технологии)
+- [Установка](#установка)
+- [Использование](#использование)
+- [Развертывание](#развертывание)
 
-### `yarn start`
+## Функциональность
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Отправка данных**: Легко отправляйте данные, связанные с грузоперевозками, на удаленный сервер.
+- **Адаптивный дизайн**: Обеспечивает оптимальный пользовательский опыт на различных устройствах.
+- **Реализация форм**: Использование библиотеки `react-hook-form` для реализации форм.
+- **Валидация форм**: Использование библиотеки `Zod` для валидации форм.
+- **Уведомления**: Интеграция `react-toastify` для отображения уведомлений.
+- **Состояние приложения**: Управление состоянием с помощью `@reduxjs/toolkit` и `react-redux`.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Используемые технологии
 
-### `yarn test`
+- **React**: Основная библиотека для построения пользовательского интерфейса.
+- **TypeScript**: Статическая типизация для JavaScript.
+- **Redux Toolkit**: Инструмент для упрощения управления состоянием приложения.
+- **Axios**: Клиент HTTP для отправки запросов на сервер.
+- **React Hook Form**: Библиотека для управления формами и их валидацией.
+- **React Responsive**: Библиотека для создания адаптивных интерфейсов.
+- **React Scroll**: Библиотека для плавного скроллинга.
+- **React Toastify**: Библиотека для отображения уведомлений.
+- **Redux Persist**: Библиотека для сохранения состояния Redux в localStorage.
+- **Zod**: Библиотека для валидации данных.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Установка
 
-### `yarn build`
+1. Перейдите в директорию проекта:
+   ```bash
+   cd master-tao
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Установите зависимости с помощью Yarn: 
+   ```bash
+   yarn install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Использование
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Запустите приложение:
+   ```bash
+   yarn start
+   ```
 
-### `yarn eject`
+## Развертывание
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Для сборки проекта используйте команду:
+   ```bash
+   yarn build
+   ```
